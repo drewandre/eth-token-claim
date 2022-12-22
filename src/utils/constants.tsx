@@ -2,7 +2,8 @@ import { Interface } from "ethers/lib/utils";
 import { ClaimlistAddress } from "./merkleTree";
 
 // contract address of you Passport
-export const PASSPORT_CONTRACT_ADDRESS = "REPLACE_ME";
+// https://docs.passage.xyz/contracts/deployedcontracts
+export const PASSPORT_CONTRACT_ADDRESS = "0x255901ec4e20857422e28141594da1d641e19365";
 
 // human readable interface
 export const PASSPORT_INTERFACE = new Interface([
